@@ -6,15 +6,17 @@
   "scripts": {
     "start": "electron -r babel-register ."
   },
-  "repository": "",
+  "repository": "https://github.com/SProst/falkor-electron",
   "keywords": [
     "Electron"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Spencer Prost",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "electron": "~1.7.8",
+    "eslint": "^4.13.1",
+    "eslint-config-google": "^0.9.1",
     "redux-devtools": "^3.4.1"
   },
   "dependencies": {
