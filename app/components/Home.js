@@ -8,7 +8,7 @@ export default class Home extends Component {
     return (
       <div>
         <div className={styles.container} data-tid="container">
-          <h2>Falkor Electron</h2>
+          <h2>Falkor Electron Wow Such Cool</h2>
           <Link to="/counter">to Counter</Link>
         </div>
       </div>

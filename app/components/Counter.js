@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import styles from './Counter.css';
+import styles from 'semantic-ui-css/semantic.css';
 
 class Counter extends Component {
   props: {
@@ -16,7 +16,7 @@ class Counter extends Component {
     const { increment, incrementIfOdd, incrementAsync, decrement, counter } = this.props;
     return (
       <div>
-        <div className={styles.backButton} data-tid="backButton">
+        <div className="ui primary button" data-tid="backButton">
           <Link to="/">
             <i className="fa fa-arrow-left fa-3x" />
           </Link>
